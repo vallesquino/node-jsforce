@@ -1,7 +1,7 @@
 {
   "name": "heroku_node",
   "version": "0.0.0",
-  "description": "",
+  "description": "A Salesforce - NodeJS CRUD API App",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

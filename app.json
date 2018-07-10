@@ -1,5 +1,5 @@
 {
   "name": "Heroku - Salesforce - NodeJS",
-  "description": "",
-  "repository": ""
+  "description": "A Salesforce - NodeJS CRUD API App",
+  "repository": "https://github.com/vallesquino/node-jsforce"
 }
