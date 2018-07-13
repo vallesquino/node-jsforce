@@ -1,7 +1,7 @@
 /* globals require */
 var express = require('express'),
     bodyParser = require('body-parser'),
-    router = require('./router'),
+    routerApi = require('./api/router'),
     app = express(),
     port = process.env.PORT || 5000;
 
@@ -11,8 +11,8 @@ app.use(bodyParser.json());
 //HTTP Headers Config
 
 //Base Routes
-app.use('/api', router);
+app.use('/api', routerApi);
 
 app.listen(port, function () {
-    console.log("API rest listening on http://localhost:" + port);
+    console.log("API rest listening on port: " + port);
 });
