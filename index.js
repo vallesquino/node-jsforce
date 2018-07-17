@@ -13,9 +13,9 @@ app.use(bodyParser.json());
 //Base Routes
 app.use('/api', routerApi);
 
-// app.get('*', function (req, res) {
-//     res.send('Invalid Endpoint (╯°□°）╯︵ ┻━┻');
-// });
+app.get('*', function (req, res) {
+    res.send('Invalid Endpoint (╯°□°）╯︵ ┻━┻');
+});
 
 app.listen(port, function () {
     console.log("API rest listening on port: " + port);
